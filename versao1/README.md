@@ -4,7 +4,10 @@ Repositório que contém todos os códigos desenvolvidos pelo grupo para a resol
 Instruções para o uso do código:
 
 Para compilar o código usando o gcc, é necessário usar o seguinte comando no seu terminal:
-"gcc mandelbrot_nparallel.c orbit_calculator.c -o mandelbrot $(sdl2-config --cflags --libs) -lm"
+
+```bash
+gcc mandelbrot_nparallel.c orbit_calculator.c -o mandelbrot $(sdl2-config --cflags --libs) -lm
+```
 
 Após compilado, execute o executável mandelbrot usando ./mandelbrot.
 
